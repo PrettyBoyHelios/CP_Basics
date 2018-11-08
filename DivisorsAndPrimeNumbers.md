@@ -28,8 +28,38 @@ In other words...
 
 **Non-Trivial Divisor:** Every divisor that is not a trivial divisor.  
 
-This creates a first binary division in the realm of the *integer domain*, primes and composite numbers.
+This creates a first binary division in the realm of the *integer domain*, **primes** and **composite** numbers.
 
 ![Primes vs Composites](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Primes-vs-composites.svg/468px-Primes-vs-composites.svg.png)
+
+### Modulo (Modulus) Operator
+
+It returns the remaider of an [Euclidean Division](https://en.wikipedia.org/wiki/Euclidean_division).
+
+![Modulus](https://wikimedia.org/api/rest_v1/media/math/render/svg/26e400cfa04a88df0482f7e69b4e9304dabede4a)
+
+> The absolute value of the remainder of the division will always be less than the absolute value of **n**.
+
+It is described with the **%** symbol in most programming languages.
+
+* C++  
+
+```cpp
+int a = 5 % 2;
+```
+
+* Python
+
+```Python
+a = 10 % 3
+```
+
+* Matlab
+
+```Matlab
+b = mod(23,5)
+```
+
+[This program](main.cpp) helps us determine if a number is a divisor of another.  
 
 ## Sources
