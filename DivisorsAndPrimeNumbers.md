@@ -121,4 +121,13 @@ A method for precalculating all the primes up to a number ***n***, by eliminatin
 
 > Every number ***n*** can be described as a product of its prime factors. ***p1 * p2 * p3 ... * pn = n***  
 
+# Nth Prime Number
+
+
+The prime number theorem is equivalent to the statement that the  ***nth*** prime number satisfies,
+
+![Nth Prime](images/nthprime.png)
+
+
+
 ## Sources
