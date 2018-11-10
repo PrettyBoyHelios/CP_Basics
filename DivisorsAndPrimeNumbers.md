@@ -4,6 +4,12 @@ Universidad Panamericana Campus Bonaterra
 November 2018  
 Instructor: Luis E. Correa Morán  
 
+## Motivation
+
+Prime numbers are widely used in the computer science industry, some jey areas are crypto, databases, security, file compression decompression, advanced math functions.
+
+If you have used a password in any website, primes were involved. Any cryptocurrency trading? Full of primes.  
+
 ## Divisors
 
 ### Definition
@@ -60,6 +66,59 @@ a = 10 % 3
 b = mod(23,5)
 ```
 
-[This program](main.cpp) helps us determine if a number is a divisor of another.  
+[This program](is_divisor.cpp) helps us determine if a number is a divisor of another.  
+
+### MCD
+
+Maximum Common Divisor. It is the largest number ***n*** that can divide the numbers ***a*** and ***b***.  
+
+### Euclides Algorithm
+
+![Euclides](images/euc.png)
+
+## Prime Numbers
+
+> A Prime Number can be divided exactly only by 1 or itself. And it must be a whole number greater than 1.
+
+The first prime numbers up to a 100, take note of this image!
+
+![Prime Numbers](https://itknowledgeexchange.techtarget.com/overheard/files/2018/01/primenumbers.jpg)
+
+### Prime Distribution
+
+![Prime Distribution](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Prime_number_theorem_absolute_error.svg/300px-Prime_number_theorem_absolute_error.svg.png)
+
+![Prime Distributions](https://mikelove.files.wordpress.com/2008/06/primes.png)
+
+### Primes in Nature
+
+![Cicada](https://i.ytimg.com/vi/EWr8fzUz-Yw/maxresdefault.jpg)
+
+Prime numbers are fun, but... How can we say if a number is prime or not?
+
+### Eratosthenes Sieve
+
+A method for precalculating all the primes up to a number ***n***, by eliminating multiples of a number on each iteration.  
+
+```Pseudo
+ Input: an integer n > 1.
+ 
+ Let A be an array of Boolean values, indexed by integers 2 to n,
+ initially all set to true.
+ 
+ for i = 2, 3, 4, ..., not exceeding √n:
+   if A[i] is true:
+     for j = i2, i2+i, i2+2i, i2+3i, ..., not exceeding n:
+       A[j] := false.
+ 
+ Output: all i such that A[i] is true.
+```
+
+***Question!***  
+> Can you think of any drawback to this approach?  
+
+### Prime Factorization
+
+> Every number ***n*** can be described as a product of its prime factors. ***p1 * p2 * p3 ... * pn = n***  
 
 ## Sources
