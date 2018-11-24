@@ -88,7 +88,7 @@ int main ()
 ```
 ### Quick Implementation in C++
 
-[stack.cpp
+[stack.cpp](code/stack.cpp)
 
 ### Appearance
 ![](http://www.trytoprogram.com/images/python_recursion_limit.jpg)
