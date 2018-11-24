@@ -5,7 +5,7 @@ using namespace std;
 class node
 {
  public:
-    int data;
+    int data;   
     node* next;
 };
 
@@ -74,6 +74,7 @@ class StackusingList
 
 int main(int argc, char** argv) {   
     StackusingList *sl = new StackusingList(5);
+
     sl->push(1);
     sl->push(2);
     sl->push(3);
