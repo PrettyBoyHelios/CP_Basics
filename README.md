@@ -5,4 +5,4 @@
 ## Contents
 
 * [Divisors & Prime Numbers](DivisorsAndPrimeNumbers.md)
-* [Queues & Stacks]()
+* [Queues & Stacks](Stacks&Queues.md)

@@ -4,7 +4,7 @@
 int main()
 {
     int a = 15;
-    int b = 15;
+    int b = 5;
 
     int mayor = 0;
     int menor = 0;

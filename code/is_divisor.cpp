@@ -1,8 +1,13 @@
+
+
+
+
+
 #include <stdio.h>
 #include <iostream>
 
 int main(){
-    int divisor = 0;        // The divisor we are comparing all numbers with
+    unsigned long divisor = 0;        // The divisor we are comparing all numbers with
     int n = 0;              // The current number we are comparing
 
     printf("\nPlease introduce the divisor\n");

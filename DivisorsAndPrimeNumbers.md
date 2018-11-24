@@ -66,7 +66,7 @@ a = 10 % 3
 b = mod(23,5)
 ```
 
-[This program](is_divisor.cpp) helps us determine if a number is a divisor of another.  
+[This program](code/is_divisor.cpp) helps us determine if a number is a divisor of another.  
 
 ### MCD
 
@@ -127,7 +127,5 @@ A method for precalculating all the primes up to a number ***n***, by eliminatin
 The prime number theorem is equivalent to the statement that the  ***nth*** prime number satisfies,
 
 ![Nth Prime](images/nthprime.png)
-
-
 
 ## Sources
