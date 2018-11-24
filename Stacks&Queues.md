@@ -20,9 +20,10 @@ If you ever compiled and run a program, the memory is managed in a stack. Queues
 
 Even further, they represent key elements of more useful and complex algorithms, such as BFS (queues) and DFS (stack).
 
-![Stack-Meme](https://pics.me.me/when-you-realise-you-dont-have-access-to-stack-overflow-31510100.png)
+![Stack-Meme](http://res.cloudinary.com/dyd911kmh/image/upload/c_scale,f_auto,q_auto:best,w_700/v1512740202/Template_2_oxrskq.png)
 
 ## Data Structures
+![Data Structures](https://www.google.com.mx/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijypP3o-3eAhUIS6wKHSbuDO8QjRx6BAgBEAU&url=https%3A%2F%2Fwww.quora.com%2FWhat-exactly-is-a-data-structure&psig=AOvVaw00fL9QbNrtXQlt2cywS2_K&ust=1543157532022867)  
 
 > **A data structure is a particular way of organizing data in a computer so that it can be used efficiently.** Data structures can implement one or more particular abstract data types(ADT), which are the means of specifying the contract of operations and their complexity.  
 
@@ -83,6 +84,9 @@ int main ()
   return 0;
 }
 ```
+### Quick Implementation in C++
+
+[stack.cpp
 
 ### Appearance
 ![](http://www.trytoprogram.com/images/python_recursion_limit.jpg)
